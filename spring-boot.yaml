@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: spring-boot
-          image: vitalikolek/spring-boot-ci-cd
+          image: vitalikolek/spring-boot-ci-cd-aws
           resources:
             limits:
               memory: "2048Mi"
